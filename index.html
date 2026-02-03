@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth scroll-pt-[100px]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zamberk - Confeitaria Artesanal</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              earth: {
+                50: '#f9f7f5',
+                100: '#f0ece6',
+                200: '#e0d6cd',
+                300: '#cbb6a6',
+                400: '#b49480',
+                500: '#9d7660',
+                600: '#8d6652', // Original Earth
+                700: '#5D4037', // Deep Brown
+                800: '#4E342E', // Darker Brown
+                900: '#3E2723', // Chocolate Deep / Marsala Undertone
+              },
+              gold: {
+                300: '#E6D089',
+                400: '#D4AF37', // Classic Gold
+                500: '#C5A028',
+                600: '#A08020',
+              },
+              nature: {
+                500: '#5d7553', // Verde Terroso (Earthy Green)
+                600: '#4a5e42', // Darker Earthy Green
+              }
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', '"Merriweather"', 'serif'],
+              sans: ['"Montserrat"', 'system-ui', 'sans-serif'],
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
