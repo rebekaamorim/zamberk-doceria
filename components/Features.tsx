@@ -10,7 +10,7 @@ const Features: React.FC = () => {
         <div className="w-full md:w-1/2">
           <div className="relative aspect-square md:aspect-[4/3] rounded-sm overflow-hidden shadow-2xl">
             <img 
-              src="components/fotos/bolocorte.png" 
+              src="./bolocorte.png" 
               alt="Fatia de bolo de corte de chocolate com recheio cremoso e ganache" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />

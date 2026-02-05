@@ -4,17 +4,17 @@ const Experience: React.FC = () => {
   const cards = [
     {
       title: "As Massas",
-      image: "components/fotos/massas.png", // Bakery/Sponge cake texture
+      image: "./massas.png", // Bakery/Sponge cake texture
       description: "Chiffon (Leve), Amanteigada (Intensa), Pão de Ló (Clássica)."
     },
     {
       title: "Os Recheios",
-      image: "components/fotos/recheios.png", // Chocolate/Creamy
+      image: "./recheios.png", // Chocolate/Creamy
       description: "Base 100% Chocolate Sicao, Frutas Vermelhas frescas, Pistache, Nozes."
     },
     {
       title: "Doces Finos",
-      image: "components/fotos/doces finos.png", // Fine sweets
+      image: "./doces finos.png", // Fine sweets
       description: "Pérolas, Confetes Belgas e acabamentos sofisticados para mesa de café."
     }
   ];
