@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
       <div className="flex items-center">
         {/* Logo Escuro - Caminho absoluto */}
         <img 
-          src="components/fotos/logoescuro.png" 
+          src="./logoescuro.png" 
           alt="Zamberk Confeitaria" 
           className="h-10 md:h-12 w-auto object-contain"
         />

@@ -14,7 +14,7 @@ const Experience: React.FC = () => {
     },
     {
       title: "Doces Finos",
-      image: "./doces finos.png", // Fine sweets
+      image: "./doces-finos.png", // Fine sweets
       description: "Pérolas, Confetes Belgas e acabamentos sofisticados para mesa de café."
     }
   ];
