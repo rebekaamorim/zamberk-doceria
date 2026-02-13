@@ -3,19 +3,19 @@ import React from 'react';
 const Process: React.FC = () => {
   const steps = [
     {
-      image: "./mensagem.png", // Planning/Menu
+      image: "./mensagem.webp", // Planning/Menu
       text: "Defina sabores e quantidade (ajudamos a calcular)."
     },
     {
-      image: "./data.png", // Calendar
+      image: "./data.webp", // Calendar
       text: "Confirme disponibilidade (Mínimo 30 dias antes)."
     },
     {
-      image: "./reserva.png", // Payment
+      image: "./reserva.webp", // Payment
       text: "Pagamento do sinal para bloquear a data."
     },
     {
-      image: "./presente.png", // Receiving/Gift
+      image: "./presente.webp", // Receiving/Gift
       text: "Receba no dia e hora marcados."
     }
   ];

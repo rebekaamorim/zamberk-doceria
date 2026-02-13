@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="flex items-center">
              {/* Logo Claro - Caminho Absoluto */}
              <img 
-               src="./logoclaro.png" 
+               src="./logoclaro.webp" 
                alt="Zamberk Confeitaria" 
                className="h-12 md:h-16 w-auto object-contain opacity-90"
              />
