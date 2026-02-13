@@ -14,6 +14,8 @@ const Hero: React.FC = () => {
           src="./hero-bg.webp" 
           alt="Mesa de Doces Finos Zamberk" 
           className="w-full h-full object-cover"
+          fetchPriority="high"         
+  loading="eager"
         />
         {/* Sombra Clara (Light Overlay) para contraste suave com o texto escuro */}
         <div className="absolute inset-0 bg-white/70 backdrop-blur-[1px]"></div>
