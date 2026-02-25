@@ -33,9 +33,7 @@ const Footer: React.FC = () => {
           <a href="https://www.facebook.com/p/Zamberk-61579546028897/" className="hover:text-gold-400 transition-colors flex items-center gap-2">
             <Facebook className="w-5 h-5"/> /zamberkdoceria
           </a>
-          <a href="#" className="hover:text-gold-400 transition-colors flex items-center gap-2">
-            <Mail className="w-5 h-5"/> contato@zamberkdoceria.com.br
-          </a>
+      
         </div>
       </div>
       
