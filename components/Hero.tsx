@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
               rel="noopener noreferrer"
               className="bg-earth-700 hover:bg-earth-800 text-white text-base md:text-lg font-bold py-4 px-10 rounded-full shadow-xl transition-transform transform hover:-translate-y-1 ring-4 ring-white/50 text-center inline-block"
             >
-              BAIXAR CARDÁPIO DE SABORES
+              BAIXAR CARDÁPIO DE SABORES!
             </a>
            
           </div>
