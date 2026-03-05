@@ -20,7 +20,15 @@ const Experience: React.FC = () => {
   ];
   
   const whatsappLink = "https://wa.me/5511974496416?text=Ol%C3%A1!%20Gostaria%20de%20ver%20as%20combina%C3%A7%C3%B5es%20de%20sabores.";
-
+  const registrarConversao = () => {
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-17976830977/hfwQCNqQloIcEIHYgvxC',
+        'value': 1.0,
+        'currency': 'BRL'
+      });
+    }
+  };
   return (
     <section id="flavors" className="bg-[#C8B6A6] py-20 px-6 md:px-16">
       <div className="max-w-6xl mx-auto">
@@ -61,6 +69,7 @@ const Experience: React.FC = () => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={registrarConversao} // ADICIONE AQUI
             className="bg-nature-500 hover:bg-nature-600 text-white font-bold text-lg py-4 px-8 rounded-full shadow-lg transition-transform transform hover:-translate-y-1 hover:scale-105 active:scale-95 inline-block"
           >
             Ver todas as combinações no WhatsApp
