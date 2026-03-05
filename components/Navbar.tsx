@@ -4,14 +4,7 @@ import { Menu, X } from 'lucide-react';
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const whatsappLink = "https://wa.me/5511974496416?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20bolos%20e%20doces%20da%20Zamberk.";
-const registrarConversao = () => {
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'conversion', {
-        'send_to': 'AW-17976830977/hfwQCNqQloIcEIHYgvxC',
-       
-      });
-    }
-  };
+
   return (
     <nav className="bg-earth-50 py-4 px-6 md:px-12 flex items-center justify-between sticky top-0 z-50 shadow-sm">
       {/* Logo Area - Dark Logo */}
@@ -33,13 +26,12 @@ const registrarConversao = () => {
         <a href="#delivery" className="hover:text-nature-600 transition-colors">Onde Entregamos</a>
       </div>
 
-      {/* CTA Button (Desktop) */}
+      {/* CTA Button */}
       <div className="hidden md:block">
         <a 
           href={whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
-          onClick={registrarConversao} // ADICIONE AQUI
           className="bg-nature-500 hover:bg-nature-600 text-white font-bold py-2 px-6 rounded-full shadow-md transition-all transform hover:scale-105 active:scale-95 text-sm inline-block"
         >
           WhatsApp Direto
@@ -65,7 +57,6 @@ const registrarConversao = () => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={registrarConversao} // ADICIONE AQUI TAMBÉM
             className="bg-nature-500 text-white font-bold py-3 px-8 rounded-full"
            >
             WhatsApp Direto

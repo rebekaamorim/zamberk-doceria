@@ -4,14 +4,7 @@ import { Star } from 'lucide-react';
 const Hero: React.FC = () => {
   const whatsappLink = "https://wa.me/5511974496416?text=Ol%C3%A1!%20Gostaria%20de%20receber%20o%20card%C3%A1pio%20de%20sabores.";
   const googleReviewsLink = "https://share.google/LAfvg2wzaBLXVj6at";
-const registrarConversao = () => {
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'conversion', {
-        'send_to': 'AW-17976830977/hfwQCNqQloIcEIHYgvxC',
-      
-      });
-    }
-  };
+
   return (
     <section className="relative pt-32 pb-32 md:py-48 px-6 md:px-16 overflow-hidden min-h-[85vh] flex items-center justify-center md:justify-start">
       
@@ -48,14 +41,13 @@ const registrarConversao = () => {
 
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
-    href={whatsappLink}
-    target="_blank"
-    rel="noopener noreferrer"
-    onClick={registrarConversao}
-    className="bg-earth-700 hover:bg-earth-800 text-white text-base md:text-lg font-bold py-4 px-10 rounded-full shadow-xl transition-transform transform hover:-translate-y-1 ring-4 ring-white/50 text-center inline-block"
-  >
-    BAIXAR CARDÁPIO DE SABORES
-  </a>
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-earth-700 hover:bg-earth-800 text-white text-base md:text-lg font-bold py-4 px-10 rounded-full shadow-xl transition-transform transform hover:-translate-y-1 ring-4 ring-white/50 text-center inline-block"
+            >
+              BAIXAR CARDÁPIO DE SABORES
+            </a>
            
           </div>
         </div>

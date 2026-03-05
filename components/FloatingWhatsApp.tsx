@@ -4,22 +4,11 @@ import { MessageCircle } from 'lucide-react';
 const FloatingWhatsApp: React.FC = () => {
   const whatsappLink = "https://wa.me/5511974496416?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20especialista.";
 
-  // Função que avisa o Google sobre a conversão
-  const registrarConversao = () => {
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'conversion', {
-        'send_to': 'AW-17976830977/hfwQCNqQloIcEIHYgvxC',
-        
-      });
-    }
-  };
-
   return (
     <a 
       href={whatsappLink}
       target="_blank"
       rel="noopener noreferrer"
-      onClick={registrarConversao} // <-- AQUI É ONDE A MÁGICA ACONTECE
       className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-16 h-16 bg-nature-500 hover:bg-nature-600 text-white rounded-full shadow-2xl transition-transform transform hover:scale-110 hover:-translate-y-1 animate-bounce-slow"
       aria-label="Fale conosco no WhatsApp"
     >
