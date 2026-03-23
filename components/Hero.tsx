@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
           
           <p className="text-earth-800 text-lg md:text-2xl mb-10 leading-relaxed max-w-xl font-medium">
             Massa amanteigada ou chiffon com Chocolate Sicao. 
-            A solução elegante e inteligente para servir seus convidados com sofisticação.
+            A solução elegante e inteligente para servir seus convidados com sofisticação!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
