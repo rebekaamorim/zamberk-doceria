@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import TopBar from './components/TopBar';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -33,12 +33,12 @@ const MainSite: React.FC = () => {
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<MainSite />} />
         <Route path="/links" element={<Links />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 };
 
