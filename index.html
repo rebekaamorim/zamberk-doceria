@@ -14,9 +14,45 @@
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+ <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              earth: {
+                50: '#f9f7f5',
+                100: '#f0ece6',
+                200: '#e0d6cd',
+                300: '#cbb6a6',
+                400: '#b49480',
+                500: '#9d7660',
+                600: '#8d6652', // Original Earth
+                700: '#5D4037', // Deep Brown
+                800: '#4E342E', // Darker Brown
+                900: '#3E2723', // Chocolate Deep / Marsala Undertone
+              },
+              gold: {
+                300: '#E6D089',
+                400: '#D4AF37', // Classic Gold
+                500: '#C5A028',
+                600: '#A08020',
+              },
+              nature: {
+                500: '#5d7553', // Verde Terroso (Earthy Green)
+                600: '#4a5e42', // Darker Earthy Green
+              }
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', '"Merriweather"', 'serif'],
+              sans: ['"Montserrat"', 'system-ui', 'sans-serif'],
+            }
+          },
+        },
+      }
+    </script>
 
   <script type="importmap">
 {
@@ -28,7 +64,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="./assets/index-DSlwunt5.js"></script>
+  <script type="module" crossorigin src="./assets/index-CLQTWNq1.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-BxMKttYc.css">
 </head>
   <body>
@@ -37,3 +73,4 @@
     <div id="root"></div>
 </body>
 </html>
+
